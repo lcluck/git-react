@@ -1,0 +1,100 @@
+.body-warp{
+	    margin-bottom: 25px;
+}
+.body-warp .cinema-warp{
+	    background-color: #fff;
+}
+.body-warp .cinema-warp .cinema-info{
+	position: relative;
+    padding: 15px 100px 15px 15px;
+}
+.body-warp .cinema-warp .cinema-info .title{
+        font-size: 17px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #333;
+}
+.body-warp .cinema-warp .cinema-info .title2{
+	margin-top: 2px;
+    font-size: 13px;
+    line-height: 18.5px;
+    color: #999;
+}
+.line-ellipsis{
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.body-warp .cinema-warp .cinema-info .location-icon{
+	position: absolute;
+    right: 0;
+    top: 50%;
+    width: 70px;
+    height: 31px;
+    /*-webkit-transform: translateY(-50%);*/
+    transform: translateY(-50%);
+    border-left: 1px solid #d8d8d8;
+    text-align: center;
+}
+.body-warp .cinema-warp .cinema-info .location-icon .location-img{
+	display: inline-block;
+    width: 19px;
+    height: 22px;
+    margin-top: 5px;
+}
+.space-carousel {
+    padding: 16px;
+    background: #DEF1E5;
+    overflow: hidden;
+}
+
+.body-warp .cinema-nav{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding: 20px 15px 20px 5px;
+    transform: translateZ(0);
+    background-color: #40454d;
+}
+.body-warp .cinema-nav .post-bg{
+    background-color: #40454d;
+    
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: translate3d(140px, 0px, 0px); 
+}
+.body-warp .cinema-nav .post-bg .swipe-wrap{
+    
+    overflow: hidden;
+    transition-property: transform,-webkit-transform;
+    box-sizing: content-box;
+    display: flex;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.body-warp .cinema-nav .post-bg .swipe-wrap .swipe-slide{
+    margin-left: 10px;
+    width: 65px;
+    height: 125px;
+    transform: translate3d(140px, 0px, 0px);
+ 
+}
+.body-warp .cinema-nav .post-bg .swipe-wrap .swipe-slide .post{
+    width: 65px;
+    transition: transform .3s,-webkit-transform .3s;
+    position: relative;
+    float: left;  
+    margin-left: 10px; 
+}
+.body-warp .cinema-nav .post-bg .swipe-wrap .swipe-slide .post img{
+    height:125px;
+    transform: scale(1);
+    display: block;
+    width: 100%;   
+}

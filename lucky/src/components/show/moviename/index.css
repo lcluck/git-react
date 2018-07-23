@@ -1,0 +1,23 @@
+.body-warp .movie-info{
+    padding: 11px 15px;
+    text-align: center;
+}
+.body-warp .movie-info .movie-title{
+    height: 24px;
+    line-height: 24px;
+    font-size: 17px;
+    color: #333;
+    font-weight: 700;
+}
+.line-ellipsis{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.body-warp .movie-info .movie-desc{
+    margin-top: 2px;
+    height: 18.5px;
+    line-height: 18.5px;
+    font-size: 13px;
+    color: #999;
+}

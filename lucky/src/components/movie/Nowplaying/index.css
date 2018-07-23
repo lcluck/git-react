@@ -1,0 +1,23 @@
+
+.switch-hot{
+	display: flex;
+    height: 44px;
+    line-height: 44px;
+    position: relative;
+    width: 50%;
+    float: right;
+}
+
+.hot-item{
+	font-size: 15px;
+    color: #666;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    font-weight: 700;
+    float: left;
+    left: 50%;
+}
+.switch-hot .active{
+	color: red;
+}
